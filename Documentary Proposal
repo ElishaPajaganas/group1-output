@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentary Proposal - Sitio Bebe Fundraising</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&family=Archivo+Black&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f6ebe5;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            padding-bottom: 10px;
+            font-family: 'League Spartan', sans-serif; /* Title Font */
+            color: #806150; /* Title Color */
+        }
+
+        p.intro-text {
+            text-align: center;
+            font-family: 'Archivo Black', sans-serif; /* Subtext Font */
+            color: #a18778; /* Subtext Color */
+            margin-bottom: 20px;
+        }
+
+        /* Styling for accordion */
+        .accordion {
+            background-color: white;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            outline: none;
+            transition: 0.4s;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            font-family: 'Archivo Black', sans-serif; /* Section Headers Font */
+            border-radius: 10px; /* Curved Borders */
+        }
+
+        /* Custom colors for accordion titles */
+        .accordion.target {
+            color: #b8a69b; /* Target Audience Text Color */
+        }
+
+        .accordion.needs {
+            color: #a18778; /* Needs Text Color */
+        }
+
+        .accordion.examples {
+            color: #806150; /* Examples Text Color */
+        }
+
+        .accordion:hover {
+            background-color: #f1f1f1;
+        }
+
+        .active,
+        .accordion:active {
+            background-color: #ccc;
+        }
+
+        .panel {
+            padding: 0 18px;
+            display: none;
+            background-color: white;
+            overflow: hidden;
+        }
+
+        .panel.show {
+            display: block;
+        }
+
+        /* Confetti styling */
+        .confetti {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            width: 8px;
+            height: 8px;
+            background-color: red;
+            border-radius: 50%;
+            opacity: 0.8;
+            animation: popConfetti 1.5s ease-out forwards;
+        }
+
+        /* Keyframes for confetti popping */
+        @keyframes popConfetti {
+            0% {
+                transform: translateX(0) translateY(0) scale(1);
+                opacity: 1;
+            }
+
+            100% {
+                transform: translateX(calc(100vw * (random() - 0.5))) translateY(calc(100vh * (random() - 0.5))) scale(0.8);
+                opacity: 0;
+            }
+        }
+
+        /* Section text colors */
+        .target-audience {
+            color: #b8a69b; /* Target Audience Text Color */
+        }
+
+        .needs {
+            color: #a18778; /* Needs Text Color */
+        }
+
+        .examples {
+            color: #806150; /* Examples Text Color */
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Documentary Proposal - Sitio Bebe Fundraising</h1>
+    <p class="intro-text">(Good day! We are Group 1 of ONL-9-2 and this webpage will uncover our plans for our documentary proposal for the fundraising event of Sitio Bebe.)</p>
+
+    <!-- Accordion sections -->
+    <button class="accordion target">Target Audience</button>
+    <div class="panel target-audience">
+        <p><strong>Gender:</strong> 51.4% female and 48.6% male</p>
+        <p><strong>Age:</strong> 18-24</p>
+        <p><strong>Regions:</strong> Global, but mostly North America, Europe, and Asia</p>
+        <p><strong>Psychographic:</strong> People who watch documentary-related contents are usually interested in in-depth explanations of a wide variation of topics. They value well-researched and thought-provoking materials with credible sources that allow them to view subject matters from different perspectives.</p>
+        <p><strong>Sources:</strong>
+            <ul>
+                <li><a href="https://s3.amazonaws.com/assets.hotdocs.ca/doc/Hot_Docs_Learning_from_Documentary_Audiences.PDF">Hot Docs Learning from Documentary Audiences</a></li>
+                <li><a href="https://sproutsocial.com/insights/new-social-media-demographics/?amp">Sprout Social: New Social Media Demographics</a></li>
+                <li><a href="https://www.titangrowth.com/blog/everyone-is-not-your-customer-why-age-gender-targeting-matter/">Titan Growth: Why Age & Gender Targeting Matters</a></li>
+            </ul>
+        </p>
+    </div>
+
+    <button class="accordion needs">Needs</button>
+    <div class="panel needs">
+        <ul>
+            <li><strong>Willing participants:</strong> We’ll need Sitio Bebe residents who are willing to share their story and give their time for our chosen YouTube content, short documentaries.</li>
+            <li><strong>Script:</strong> A script is needed in order to efficiently convey the message and story of the documentary. It is needed so viewers can be able to understand the point we’re trying to get across.</li>
+            <li><strong>Detailed Information:</strong> Our audience will need clear, factual information about Sitio Bebe’s current situation, the goals of the fundraising, and how the funds will be used. This helps in building trust and ensuring transparency.</li>
+            <li><strong>Presentation:</strong> We’ll need at least an appropriate presentation to clear out our goal for this documentary, and how we can be able to help.</li>
+            <li><strong>Blueprint:</strong> A clear blueprint will help us outline the key themes and ensure the documentary flows smoothly.</li>
+            <li><strong>Camera & camera crew:</strong> We’ll need a skilled camera operator to capture the footage, along with a director to ensure the narrative aligns with our goals.</li>
+        </ul>
+    </div>
+
+    <button class="accordion examples">Examples</button>
+    <div class="panel examples">
+        <p>Here are some examples of documentaries:</p>
+        <ul>
+            <li><a href="https://www.youtube.com/watch?v=TX3d9AvA1eM&rco=1" target="_blank">Example 1</a></li>
+            <li><a href="https://youtu.be/ty1VWxCZ7p0?si=-SF4krukeQpxZH6H" target="_blank">Example 2</a></li>
+            <li><a href="https://youtu.be/TGKTz9xQ34Y?si=P94R37FU4yAOdT2t" target="_blank">Example 3</a></li>
+            <li><a href="https://youtu.be/dZ1uOahs8-0?si=UzVITzK-cBr9CxQ3" target="_blank">Example 4</a></li>
+        </ul>
+    </div>
+
+    <script>
+        // Script for accordion toggle
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+
+                    // Trigger confetti pop on dropdown open
+                    for (let i = 0; i < 50; i++) { // 50 confetti particles
+                        setTimeout(createConfetti, i * 20);
+                    }
+                }
+            });
+        }
+
+        // JavaScript for Confetti Popping
+        function createConfetti() {
+            const confetti = document.createElement('div');
+            confetti.classList.add('confetti');
+            document.body.appendChild(confetti);
+
+            // Randomize confetti color
+            const colors = ['#f00', '#0f0', '#00f', '#ff0', '#f0f', '#0ff'];
+            confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+
+            // Randomize confetti position and size
+            confetti.style.left = `${Math.random() * 100}vw`;
+            confetti.style.top = `${Math.random() * 100}vh`;
+            confetti.style.width = `${Math.random() * 8 + 5}px`;
+            confetti.style.height = confetti.style.width;
+                  // Make confetti disappear after animation
+        setTimeout(() => confetti.remove(), 2000);
+    }
+</script>
+  </body>
+</html>
+
